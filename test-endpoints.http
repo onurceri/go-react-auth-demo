@@ -1,0 +1,11 @@
+POST http://localhost:8081/api/register HTTP/1.1
+content-type: application/json
+
+{
+    "first_name": "test first name",
+    "last_name": "test last name",
+    "email": "test@mailaddress.com",
+    "password": "testpassword"
+}
+
+GET http://localhost:8081/api/user HTTP/1.1
